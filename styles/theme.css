@@ -1,0 +1,234 @@
+body {
+	background-color:#6b6b6b;
+}
+
+
+header {
+	border: solid 4px;
+	border-bottom-color: #76c38f;
+}
+
+
+
+#upper{
+	background-color: #290000;
+	font-family: Georgia;
+	font-size: 10px;
+	color: white;
+	margin: auto;
+}
+
+#content{
+	background-color:#660000;
+}
+
+.service{
+	background-color:white;
+	font-family:Georgia;
+	font-size: 12px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align:center;
+	width: 85%;
+	margin-top: 100px;
+	margin-bottom: 10%;
+}
+
+.service img{
+	margin: 0 auto;
+	
+}
+
+.service:hover{
+	background-color: #76c38f;
+	color:white;
+	
+}
+
+.service:hover img{
+	filter: invert(100%);
+}
+
+.work{
+	padding: 20px;
+	margin: 0 auto;
+	
+	
+}
+
+.wtext{
+	width: 100%;
+	height: 20px;
+	border-bottom: 5px solid #333333;
+	color: white;
+	margin-top: 40px;
+	
+	
+}
+.wtext h1{
+	text-align:center;
+	font-family: Georgia;
+	border: 1px solid #333333;
+	border-radius: 5px;
+	background-color: #333333;
+	width: 26%;
+	margin-left:40%;
+	
+	
+	
+}
+.work ul{
+  list-style: none;
+  text-align: center;
+  width:100%;
+  margin-top: 10%;
+}
+.work li{
+  display: inline-block;
+  margin: 20px;
+  border: solid 5px white;
+  border-radius: 5px;
+  
+  
+}
+
+
+.work h4{
+	background-color: #151515;
+	padding: 5px;
+	margin: 0px;
+	font-family:Georgia;
+	color: white;
+}
+
+.work li:hover, .work h4:hover{
+	border-color: #76c38f;
+	color: transparent;
+	background-image: url("http://placehold.it/290x190/353535.png");
+}
+
+
+
+.carousel-inner >.item >img{
+	float:right;
+	border: solid 30px #6b6b6b;
+	border-radius: 250px;
+	margin-right: 200px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.carousel-control {
+position: absolute;
+top: 50%; /* pushes the icon in the middle of the height */
+z-index: 5;
+display: inline-block;
+opacity: 1;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+	filter: none;
+}
+
+.carousel-caption{
+	bottom: auto;
+	font-size: 12px;
+	max-width: 23%;
+	text-align: left;
+	margin:10px;
+	
+}
+
+.carousel-caption h1 {
+	float: left;
+	color: white;
+	font-size: 46px;
+	padding-bottom: 20px;
+}
+.carousel-caption p{
+	padding-bottom: 20px;
+}
+.btn{
+	background-color: #76c38f;
+	font-size: 13px;
+	padding: 7px 15px 7px 15px;
+	font-family: Georgia;
+	border-radius: 10px;
+}
+
+nav ul li{
+	float: right;
+	font-family: Georgia;
+	padding: 10px;
+	margin: 10px;
+	list-style-type: none;
+	display: inline-block;
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+nav ul li a:hover{
+	background-color: #76c38f;
+	border: solid 4px;
+	border-color: #76c38f;
+	border-radius: 2px;
+	padding: 5px;
+	text-decoration: none;
+	color: white;
+	
+}
+footer{
+background-color: #303030;
+padding: 50px;
+
+}
+
+footer h3,h5,p{
+	font-family: Georgia;
+	color: white;
+	
+}
+footer h3{
+	font-size: 15px;
+}
+
+footer a,footer h4{
+	color:#76c38f;
+	text-decoration: none;
+	font-family: Georgia;
+}
+.footercolumn{
+	padding: 5px;
+	
+}
+.quicklinks{
+float: left;
+text-align: left;
+}
+.quicklinks ul li{
+	list-style:none;
+	width: 100%;
+	border-bottom: solid 1px;
+	padding: 10px;
+	
+}
+
+.quicklinks li::before {
+	content:"\002022";
+	color: #ada8a8;
+}
+.form-horizontal{
+	float: left;
+}
+.form-control{
+	color: white;
+	background-color: #151515;
+	margin: 5px;
+	border: 1px solid black;
+	
+}
